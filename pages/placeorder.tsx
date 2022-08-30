@@ -1,14 +1,14 @@
+import Cookies from "js-cookie";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Cookies from "js-cookie";
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import CheckoutWizard from "../components/CheckoutWizard";
 import Layout from "../components/Layout";
+import axios from "../utils/axios";
 import { getError } from "../utils/error";
 import { Store } from "../utils/Store";
-import axios from "../utils/axios";
 
 export default function PlaceOrderScreen() {
   const { state, dispatch } = useContext(Store);

@@ -142,20 +142,4 @@ const login: React.FC = () => {
   );
 };
 
-// export async function getServerSideProps(context) {
-//   const session = await getSession(context);
-//   const redirect = context.query.redirect;
-
-//   if (session) {
-//     return {
-//       redirect: {
-//         destination: redirect || "/",
-//       },
-//     };
-//   }
-//   return {
-//     props: {},
-//   };
-// }
-
 export default login;
