@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-with-material-ui-styled-components",
+  "version": "1.0.0",
+  "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.3",
+    "@paypal/react-paypal-js": "^7.8.1",
+    "axios": "^0.27.2",
+    "babel-preset-next": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^3.0.1",
+    "mongoose": "^6.5.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.34.2",
+    "react-hot-toast": "^2.3.0",
+    "styled-components": "latest",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "@types/js-cookie": "^3.0.2",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.7.8",
+    "@types/react": "^17.0.48",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "autoprefixer": "^10.4.8",
+    "babel-plugin-styled-components": "latest",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
