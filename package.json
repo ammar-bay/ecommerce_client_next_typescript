@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-with-material-ui-styled-components",
+  "name": "ecommerce_nextjs_typescript",
   "version": "1.0.0",
   "dependencies": {
     "@headlessui/react": "^1.6.6",
